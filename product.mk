@@ -7,4 +7,12 @@ ifeq ($(TARGET_LAUNCHER),2)
     Lawnchair \
     LawnchairOverlay \
     Lawnicons
+
+# Lawnchair Launcher
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.quickswitch_lawnchair_shipped=1
+else 
+# Lawnchair Launcher
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.quickswitch_lawnchair_shipped=0
 endif
