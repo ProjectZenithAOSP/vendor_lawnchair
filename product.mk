@@ -16,3 +16,6 @@ else
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.sys.quickswitch_lawnchair_shipped=0
 endif
+
+# Themed Icons
+$(call inherit-product, vendor/google/overlays/ThemeIcons/config.mk)
