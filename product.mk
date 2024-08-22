@@ -9,11 +9,11 @@ ifeq ($(TARGET_LAUNCHER),2)
     Lawnicons
 
 # Lawnchair Launcher
-PRODUCT_SYSTEM_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.quickswitch_lawnchair_shipped=1
-else 
+else
 # Lawnchair Launcher
-PRODUCT_SYSTEM_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.quickswitch_lawnchair_shipped=0
 endif
 
